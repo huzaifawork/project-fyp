@@ -1,0 +1,75 @@
+.d-flex {
+    gap: 20px; /* Adds space between the sidebar and the main content (including the navbar) */
+  }
+.sidebar {
+    width: 250px;
+    border-radius: 12px; /* Rounds the sidebar corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow to the sidebar */
+    padding: 20px;
+  }
+
+.sidebar .menu a,
+.sidebar .sales a,
+.sidebar .settings a {
+  border-radius: 8px; /* Rounds individual sidebar components */
+  margin-bottom: 10px; /* Adds space between each item */
+  padding: 10px 15px; /* Adjust padding for a cleaner look */
+}
+.sidebar .menu a:hover,
+.sidebar .sales a:hover,
+.sidebar .settings a:hover {
+  background-color: #e9ecef; /* Optional: Slight background change on hover */
+}
+  
+  .sidebar-header img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .sidebar-header h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .sidebar .menu ul,
+  .sidebar .sales ul,
+  .sidebar .settings ul {
+    padding: 0;
+  }
+  
+  .sidebar .menu li,
+  .sidebar .sales li,
+  .sidebar .settings li {
+    list-style: none;
+  }
+  
+  .sidebar .menu a,
+  .sidebar .sales a,
+  .sidebar .settings a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .sidebar .menu a:hover,
+  .sidebar .sales a:hover,
+  .sidebar .settings a:hover {
+    background-color: #f1f1f1;
+  }
+  .navbar {
+    border-radius: 12px 12px 0 0; /* Rounded corners at the top */
+    margin-bottom: 0; /* Ensures it is flush with the main content below */
+  }
+  .main-content-card {
+    border-radius: 12px; /* Rounds the corners for the main content */
+    background-color: #fff; /* Ensures a white background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a card effect */
+    overflow: hidden; /* Ensures content stays inside the rounded corners */
+  }
+  
+  /* Adds spacing between navbar and sidebar */
+  .container-fluid {
+    margin-left: 15px;
+  }

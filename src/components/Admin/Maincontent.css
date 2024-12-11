@@ -1,0 +1,57 @@
+.main-container {
+    padding: 20px;
+    background: #f8f9fc;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .revenue-card,
+  .traffic-card,
+  .products-card {
+    height: auto;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .products-card .products-count {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .total-income-card .text-success {
+    font-size: 24px;
+  }
+  
+  h6 {
+    font-size: 16px;
+  }
+  .main-container {
+    padding: 20px;
+    background: #f8f9fc;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  .top-products .product-item {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+  }
+  
